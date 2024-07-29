@@ -28,4 +28,22 @@ Creating AWS Instance-
 
 EC2 instance is created.
 
+Creating AWS RDS Instance-
 
+1. Open AWS Console.
+2. Go to AWS RDS.
+3. Click On Create Database.
+4. Select Database type - MySQL or Postgresql or any other.
+5. Chose Template- Dev or Production.
+6. Enter Database name.
+7. Create master user and password.
+8. Choose Netwoking and other additional options.
+9. Create Database.
+10. Download application to access database.
+11. Go to database dashboard in AWS.
+12. Make note of endpoint & port.
+13. Check for the allowed IP in Security Groups.
+14. Go back to application such as DBeaver.
+15. Enter Endpoint of database, port, username and password, and you can use the database.
+
+AWS RDS database is created.
