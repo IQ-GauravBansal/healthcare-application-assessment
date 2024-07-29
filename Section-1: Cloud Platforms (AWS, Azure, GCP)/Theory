@@ -1,1 +1,16 @@
 Theory: Explain how you would set up a highly available and scalable web application using AWS services. Include VPC, EC2, Load Balancer, Auto Scaling, and RDS in your explanation.
+
+Creating AWS VPC-
+1. Open the AWS Console.
+2. Search for VPC.
+3. Click on Your VPCs.
+4. Click on Create VPC.
+5. Enetr name of VPC.
+6. Enter IPv4 CIDR block range for VPC.
+7. Click on Create VPC.
+8. After VPC is created, Go to Subnet from left menu.
+9. Click on Create Subnet.
+10. Select VPC ID of already created VPC.
+11. Enter subnet name, availability zone, IPv4 CIDR block range of VPC, then subnet block range and click on Create subnet.
+
+
