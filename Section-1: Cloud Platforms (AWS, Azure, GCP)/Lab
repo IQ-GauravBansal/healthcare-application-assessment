@@ -1,1 +1,21 @@
 Lab: Create and configure an S3 bucket with public read access. Upload a file to the bucket and provide the URL for access.
+
+We have created an AWS IAM User with Read Only Access to the S3 Bucket. 
+
+We have attached the following Bucket policy to the IAM User-
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:Get*",
+                "s3:List*",
+                "s3:Describe*",
+                "s3-object-lambda:Get*",
+                "s3-object-lambda:List*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
