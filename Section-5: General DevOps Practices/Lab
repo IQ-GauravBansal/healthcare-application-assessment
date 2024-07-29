@@ -1,12 +1,18 @@
-Automation:
+1.Automation:
 Lab: Automate a simple deployment script using a tool of your choice (e.g., Bash, Python). Provide the script and its output.
 
-Security:
+2.Security:
 Lab: Configure a security group in AWS that only allows SSH and HTTP access. Provide the security group ID and its rules.
 
 We will create a Security Group that allows only port 22 for SSH and port 80 for HTTP access in AWS.
 
-Incident Response:
+3.Incident Response:
 Lab: Simulate a simple incident (e.g., service down) and provide a step-by-step log of your incident response actions.
 
+For Service down, check the error.
+Try to figure out th error and reason of error.
+Find out the flow of error occuring and the root cause of the error.
+
+For example, If there is service down of endpoint URL due to exceeded limit of users.
+In that case, increase the Computing Power, enable Autoscaling, either Horizontal or Vertical.
 
