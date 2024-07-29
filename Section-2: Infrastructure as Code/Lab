@@ -59,3 +59,8 @@ We can check in AWS for the creation of EC2 Instance.
 
 CloudFormation:
 Lab: Create a simple CloudFormation template to deploy an EC2 instance and an S3 bucket. Deploy the stack and provide the CloudFormation stack ID.
+
+Instance IP- 13.200.253.90
+Stack ID after cloud formation- arn:aws:cloudformation:ap-south-1:008971632097:stack/Assessment-CloudFormation/7d3f3490-4d63-11ef-8a7b-065314482763
+
+
