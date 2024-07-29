@@ -1,7 +1,7 @@
 Theory: Write a Dockerfile for a Node.js application that installs dependencies, copies the application code, and starts the application using npm start.
 
 DockerFile
-FROM node:alpine-latest
+FROM node:latest
 RUN mkdir /healthcare
 WORKDIR /healthcare
 
