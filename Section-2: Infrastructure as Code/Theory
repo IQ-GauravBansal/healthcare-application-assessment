@@ -1,1 +1,6 @@
+Terraform:
+Theory: Write a Terraform script to deploy an EC2 instance in AWS with the following specifications: t2.micro, in the us-west-2 region, and with a specific security group allowing SSH access.
+
+CloudFormation:
+Theory: Describe how you would use AWS CloudFormation to automate the deployment of a multi-tier web application. Include the steps and key components in your answer.
 
