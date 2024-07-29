@@ -1,8 +1,20 @@
 Automation:
 Theory: Describe a scenario where automation significantly improved the efficiency of a deployment process. Include the tools and techniques used.
 
+We can use Cloud Build, Cloud Deploy, to automate the process of deployment in GCP, that needs approval, that makes the deployment easy and fast.
+
 Security:
 Theory: Explain the best practices for securing a cloud infrastructure. Focus on IAM policies, network security, and data protection.
+
+For Cloud Infrastructure, we should have VPC with self-customized IP range.
+
+In VPC, we have private subnets and public subnets. For best practice, we create our services like database, repositories with private access only. For the required public services, such as VMs or endpoint URLs, we need to create in public subnet.
+
+Always, go for minimum permissions to be given to IAM user. 
+
+Check for firewall rules and security groups to be maintained with minimum IP access of actual users only.
+
+Ensure to have multi level authentications for services that we have public access.
 
 Incident Response:
 Theory: Outline your approach to handling a critical incident in a production environment. Include steps for initial response, investigation, resolution, and post-incident review.
