@@ -27,3 +27,12 @@ Creating AWS Instance-
 9. After instance is created, check for Public IP, and extract password from .pem file and you can login into instance successfully.
 
 EC2 instance is created.
+
+Creating AWS Load Balancer.
+Open the Amazon EC2 console.
+Choose Target Groups.
+Choose Create target group.
+Select Instances to specify targets by instance ID.
+For Target group name, enter a name for the target group.
+Choose IPv4.
+
