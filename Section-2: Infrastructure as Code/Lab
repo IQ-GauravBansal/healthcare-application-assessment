@@ -1,1 +1,5 @@
+Terraform:
+Lab: Deploy the above Terraform script and provide the public IP of the EC2 instance.
 
+CloudFormation:
+Lab: Create a simple CloudFormation template to deploy an EC2 instance and an S3 bucket. Deploy the stack and provide the CloudFormation stack ID.
