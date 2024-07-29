@@ -19,3 +19,9 @@ We have attached the following Bucket policy to the IAM User-
         }
     ]
 }
+
+After the IAM USer is created, we have created Access Credentials for the IAM User-
+
+Access Key- AKIAQEFWAHXQ2CULKONP
+
+Secret Access Key- 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
