@@ -48,3 +48,54 @@ ________________________________________________________________________________
 CloudFormation:
 Theory: Describe how you would use AWS CloudFormation to automate the deployment of a multi-tier web application. Include the steps and key components in your answer.
 
+We need to create Cloud Formation template.
+
+We will store the template in AWS S3 bucket.
+
+We need to create Cloud formation Stack, and then create template. For Example-
+AWSTemplateFormatVersion: 2010-09-09
+Description: This template will launch an EC2 instance and a Security Group, and associate them together.
+
+Resources: 
+  InstanceSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupName: AllowEc2Traffic1
+      GroupDescription: Enable SSH access and HTTP access on the inbound port
+      VpcId: vpc-000586b66ccde36ab
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80 
+          CidrIp: "0.0.0.0/0"
+        - IpProtocol: tcp
+          FromPort: 20
+          ToPort: 20
+          CidrIp: "0.0.0.0/0"
+      Tags:
+        - Key: Name
+          Value: InstanceSecurityGroup
+
+  windowInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      KeyName: Custom
+      ImageId: ami-049f0f6f51145ff40
+      InstanceType: "t2.micro"
+      SecurityGroupIds:
+        - !Ref InstanceSecurityGroup
+      SubnetId: subnet-0961c4ba92e599e65
+      Tags:
+        - Key: Name
+          Value: windowInstance
+
+Outputs:
+  outputInstanceSecurityGroup:
+    Description: A reference to the created Security Group
+    Value: !Ref InstanceSecurityGroup
+  outputwindowInstance:
+    Description: A reference to the created EC2 instance
+    Value: !Ref windowInstance
+
+
+
