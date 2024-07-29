@@ -1,1 +1,19 @@
 Theory: Outline the steps to set up a CI/CD pipeline in Azure DevOps for a Java application that includes building the code, running unit tests, and deploying to a staging environment.
+
+Developer will code on local, test it and after that when the code is ready, the code will be merged to Git or GitHub Repositories using Git Bash or VS Code.
+
+After the code is available on Github, the process of deployment can be started.
+
+Microsoft Azure have Azure Repositories, or we can attach the Azure Pipelines directly to the GitHub or Git Repository.
+
+First, we create a Resource Group.
+
+In Resource Group, we have Azure Pipelines and different stages in Pipeline.
+
+In Pipelines, we setup Cloud Build using Yaml file.
+
+The Artifacts are stored in Azure Artifacts.
+
+There is Testing stage in Pipelines
+
+There is Releases section.
