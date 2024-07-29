@@ -1,1 +1,10 @@
+Automation:
+Lab: Automate a simple deployment script using a tool of your choice (e.g., Bash, Python). Provide the script and its output.
+
+Security:
+Lab: Configure a security group in AWS that only allows SSH and HTTP access. Provide the security group ID and its rules.
+
+Incident Response:
+Lab: Simulate a simple incident (e.g., service down) and provide a step-by-step log of your incident response actions.
+
 
