@@ -63,6 +63,6 @@ ________________________________________________________________________________
 CloudFormation:
 Lab: Create a simple CloudFormation template to deploy an EC2 instance and an S3 bucket. Deploy the stack and provide the CloudFormation stack ID.
 
-Stack ID after cloud formation- arn:aws:cloudformation:ap-south-1:008971632097:stack/Assessment-CloudFormation/7d3f3490-4d63-11ef-8a7b-065314482763
+Stack ID after cloud formation- arn:aws:cloudformation:ap-south-1:008971632097:stack/assessment-cloudformation/3107daa0-4d77-11ef-90f5-0ab63bbaa27f
 
 
