@@ -1,1 +1,19 @@
 Lab: Set up a build pipeline in Azure DevOps that clones a Git repository, builds a simple Java application, and archives the build artifacts. Provide the URL of the Azure DevOps pipeline.
+
+We will setup code on  Git or GitHub Repositories using Git Bash or VS Code.
+
+After the code is available on Github, we will start the process of deployment.
+
+We can attach the Azure Pipelines directly to the GitHub or Git Repository on Azure Repositories.
+
+First, we create a Resource Group.
+
+In Resource Group, we have Azure Pipelines and different stages in Pipeline.
+
+In Pipelines, we setup Cloud Build using Yaml file.
+
+The Artifacts are stored in Azure Artifacts.
+
+There is Testing stage in Pipelines
+
+There is Releases section.
