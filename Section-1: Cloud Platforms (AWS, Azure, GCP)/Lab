@@ -20,8 +20,26 @@ We have attached the following Bucket policy to the IAM User-
     ]
 }
 
-After the IAM USer is created, we have created Access Credentials for the IAM User-
+After the IAM User is created, we have created Access Credentials for the IAM User-
 
 Access Key- AKIAQEFWAHXQ2CULKONP
-
 Secret Access Key- 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
+
+After that, we have created S3 bucket in AWS.
+We have created two Folders inside the bucket for different purposes.
+
+1. Audio Call Recordings
+AWS Region
+Asia Pacific (Mumbai) ap-south-1
+S3 URI
+s3://audio-video-calls-data-dev/Audio Call Recordings/
+Amazon Resource Name (ARN)
+arn:aws:s3:::audio-video-calls-data-dev/Audio Call Recordings/
+
+2. Video Call Recordings
+AWS Region
+Asia Pacific (Mumbai) ap-south-1
+S3 URI
+s3://video-video-calls-data-dev/Video Call Recordings/
+Amazon Resource Name (ARN)
+arn:aws:s3:::audio-video-calls-data-dev/Video Call Recordings/
