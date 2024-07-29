@@ -51,4 +51,4 @@ AWS RDS database is created.
 Creating Load Balancer in AWS-
 
 1. Open AWS Console.
-2. There are multiple options for Load Balancer- Application Load Balancer, Network Load Balancer, Gateway Load Balancer.
+2. There are multiple options for Load Balancer- Application Load Balancer, Network Load Balancer, Gateway Load Balancer, Classic Load Balancer.
