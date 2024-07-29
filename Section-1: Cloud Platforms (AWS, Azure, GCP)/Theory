@@ -47,3 +47,8 @@ Creating AWS RDS Instance-
 15. Enter Endpoint of database, port, username and password, and you can use the database.
 
 AWS RDS database is created.
+
+Creating Load Balancer in AWS-
+
+1. Open AWS Console.
+2. There are multiple options for Load Balancer- Application Load Balancer, Network Load Balancer, Gateway Load Balancer.
